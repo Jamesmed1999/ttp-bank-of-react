@@ -19,7 +19,7 @@ class AccountBalance extends Component {
      
     return (
         <div>
-          <h2 id = 'home-balance'> Balance:
+          <h2 id = 'home-balance'> Balance: $
            {Math.round(this.props.accountBalance  + val)} </h2> 
           
         </div>

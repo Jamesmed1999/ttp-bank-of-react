@@ -76,7 +76,7 @@ componentDidMount(){
           
         <Link to="/">Home</Link>
           <h1>Debits</h1>
-          <h3 >account balance {Math.round(this.props.accountBalance - total + this.props.totalCre) }</h3>
+          <h3 >Account balance  ${Math.round(this.props.accountBalance - total + this.props.totalCre) }</h3>
           <div id = 'h5'>Debits: </div>
           <ul id = "credit-debit">{this.displayDebitInfo()}</ul>
           <form  >
